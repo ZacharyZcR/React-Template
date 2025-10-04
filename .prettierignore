@@ -1,0 +1,26 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs
+.next
+out
+dist
+build
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# IDEs
+.idea
+.vscode
+
+# Testing
+coverage
+
+# Misc
+.env*.local
+pnpm-lock.yaml
