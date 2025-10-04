@@ -24,9 +24,12 @@ export default defineConfig({
         '.next/',
         'out/',
         'dist/',
+        'e2e/**',
+        'src/app/**',
         '**/*.config.*',
         '**/*.d.ts',
         '**/types/**',
+        '**/__tests__/**',
       ],
       thresholds: {
         lines: 80,
